@@ -28,12 +28,12 @@
 	    <repository>
 	        <id>central</id>
 	        <name>demospring-releases</name>
-	        <url>http://13.82.22.223:8081/artifactory/libs-release</url>
+	        <url>http://13.82.22.223:8081/artifactory/libs-release-local</url>
 	    </repository>
 	    <snapshotRepository>
 	        <id>snapshots</id>
 	        <name>demospring-snapshots</name>
-	        <url>http://13.82.22.223:8081/artifactory/libs-snapshot</url>
+	        <url>http://13.82.22.223:8081/artifactory/libs-snapshot-local</url>
 	    </snapshotRepository>
     </distributionManagement>
 	
