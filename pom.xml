@@ -26,16 +26,16 @@
 	
 	<distributionManagement>
 	    <repository>
-	        <id>central</id>
-	        <name>demospring-releases</name>
+	        <id>release</id>
+	        <name>release</name>
 	        <url>http://13.82.22.223:8081/artifactory/libs-release-local</url>
 	    </repository>
 	    <snapshotRepository>
-	        <id>snapshots</id>
-	        <name>demospring-snapshots</name>
+	        <id>snapshot</id>
+	        <name>snapshot</name>
 	        <url>http://13.82.22.223:8081/artifactory/libs-snapshot-local</url>
 	    </snapshotRepository>
-    </distributionManagement>
+    	</distributionManagement>
 	
 	<scm>
 		<connection>scm:git:git@github.com:sasidhar-p/devops1.git</connection>
